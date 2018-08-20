@@ -1,7 +1,6 @@
 header{
     width: 960px;
     border: #cccccc;
-    align-content: center;
 }
 
 .name{
@@ -28,12 +27,13 @@ header{
 }
 
 .container{
-    width:960px;
-    border: solid 3px;
+    overflow: hidden;
+    border: solid 1px;
     border-color: #dddddd;
-    position: relative;
+    clear:both;
 }
 
 body{
-
+    width: 960px;
+    margin: 0 auto;
 }
