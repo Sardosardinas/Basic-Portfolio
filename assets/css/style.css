@@ -1,6 +1,21 @@
-header{
-    width: 960px;
+header{ 
     border: #cccccc;
+    margin:0 auto;
+    background-color:#ffffff;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.navigation{
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav{
+    float: right; 
+    padding: 20px;
+    overflow: hidden;
 }
 
 .name{
@@ -10,7 +25,7 @@ header{
     width:20%;
     left: 30%;
     right: 30%;
-    padding: 20px;
+    padding:20px;
     text-align:center;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-size: 24px;
@@ -30,10 +45,18 @@ header{
     overflow: hidden;
     border: solid 1px;
     border-color: #dddddd;
+    background-color: #ffffff;
     clear:both;
+    width: 960px;
+    margin:30px auto;
+    padding:30px;
 }
 
 body{
-    width: 960px;
-    margin: 0 auto;
+    background-image: url("../images/gravel.png");
+}
+
+footer{
+    width:960px;
+    margin:0 auto;
 }
